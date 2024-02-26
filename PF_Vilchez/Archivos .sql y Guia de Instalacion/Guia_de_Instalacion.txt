@@ -1,0 +1,17 @@
+Guía de instrucción para la creación e inserción de datos a la base de datos.
+
+Por favor, seguir el siguiente orden de ejecución de cada archivo nombrado a continuación, para una instalación exitosa de la base de datos.
+
+1 - Archivo "01_Tables": contiene la estructura y las tablas que conforman la base de datos.
+2 - Archivo "02_Data_Insertion": contiene los datos que se almancenan en cada tabla de la base de datos.
+3 - Archivo "03_Views": en este archivo se encuentran las 5 "Vistas" de la base de datos.
+4 - Archivo "04_Functions": este archivo contiene las 2 funciones que corresponden a la base de datos.
+5 - Archivo "05_StoredProcedures": con este archivo se crearan las 2 Stored Procedures o Procedimientos Almacenados para la base de datos.
+6 - Archivo "06_Triggers": Con este archivo, se crearan los 4 triggers o "disparadores" y 2 tablas de auditoria.
+7 - Archivo "07_DCL": En este archivo se puede ver la creación de usuarios con permisos designados para cada uno.
+8 - Archivo "08_TCL": Con este ultimo archivo, para terminar de crear nuestra base de datos, se realizaran algunas modificaciones a tablas ya existentes creadas con el archivo "01_Tables".
+
+
+Archivo solo de respaldo: NO ejecutar de no ser necesario.
+
+9 -  Archivo "09_Backup_Tables": Este archivo es una copia de seguridad de las tablas que conforman la base de datos en caso de necesitar restaurarla desde 0 o por perdida de la misma.
